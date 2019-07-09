@@ -1,0 +1,102 @@
+.bgimg{
+	background-image: url('/static/image1.jpg');
+	background-size : 100% 100%;
+	background-attachment: fixed;
+	width : 100%;
+	height: 700px;
+}
+
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset h1{
+	font-size: 75px;
+	font-weight: bold;
+}
+
+.headerset h2{
+	font-size: 60px;
+}
+
+.iam{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.iam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rowsetting{
+	margin: 70px 0px;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+}
+
+.fa-puzzle-piece{
+	margin-top: 15px;
+}
+
+.fa-laptop{
+	margin-top: 15px;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.rowsetting p{
+	padding : 10px;
+}
+
+.hola{
+	padding : 40px;
+background-color: #ffff66;*
+}
+
+.hola h2,h3{
+	font-weight: bold;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.card{
+	padding : 10px;
+}
+
+.lel{
+	padding: 30px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.college{
+  border: 2px solid black;
+  padding: 25px;
+  background: url('/static/g2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.college h2{
+	padding-top: 160px; 
+	font-family: Chalkduster, fantasy;
+}
+.college h4{
+	padding-bottom: 150px;
+	font-family: Chalkduster, fantasy;
+}
+.college h3{
+	font-family: Chalkduster, fantasy;
+}
+/*
+.exp{
+	padding : 100px;
+}
+*/

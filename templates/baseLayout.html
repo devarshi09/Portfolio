@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/style.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>	
+
+	<div>
+		<nav class = "navbar navbar-expand-md bg-dark navbar-dark">
+			<div class = "container">
+				<a href="" class = "navbar-brand text-info font-weight-bold" >
+					DEVARSHI 
+				</a>
+				<button class = "navbar-toggler" type = "button" data-toggle = "collapse"
+				data-target = "#collapsenavbar" >
+					<span class = "navbar-toggler-icon"> </span>
+				</button>
+
+				<div class = "collapse navbar-collapse text-center" id = "collapsenavbar" >
+					<ul class = "navbar-nav ml-auto">
+						<li class = "nav-item">
+							<a href="{% url 'intro' %}" class = "nav-link"> INTRODUCTION </a>
+						</li>
+						<li class = "nav-item">
+							<a href="{% url 'edu' %}" class = "nav-link"> EDUCATION </a>
+						</li>
+						<li class = "nav-item">
+							<a href="{% url 'exp' %}" class = "nav-link"> EXPERIENCE </a>
+						</li>
+						<li class = "nav-item">
+							<a href="{% url 'skills' %}" class = "nav-link"> SKILLS </a>
+						</li>
+						<li class = "nav-item">
+							<a href="" class = "nav-link"> ACHIEVEMENTS </a>
+						</li>
+						<li class = "nav-item">
+							<a href="" class = "nav-link"> CERTIFICATIONS </a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	
+		
+	</div>
+
+	{%block content%}
+
+	{%endblock%}
+
+
+</body>
+</html>
