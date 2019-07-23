@@ -9,8 +9,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage,name = "intro"),
     path('skills/',views.skills,name = "skills"),
-    path('edu/',views.edu,name = "edu"),
+    path('education/',views.edu,name = "edu"),
     path('experience/',views.exp,name = "exp"),
+    path('achievements/',views.ach,name = "ach"),
+    path('certifications/',views.certi,name = "certi"),
 ]
 
 

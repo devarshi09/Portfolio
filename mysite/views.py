@@ -14,3 +14,9 @@ def edu(request):
 
 def exp(request):
 	return render(request,'exp.html')
+
+def ach(request) :
+	return render(request,'ach.html')
+
+def certi(request) :
+	return render(request,'certi.html')

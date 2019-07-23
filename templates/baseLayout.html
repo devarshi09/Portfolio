@@ -4,7 +4,7 @@
 	<title>Homepage</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/styl.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,14 +14,16 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+
 </head>
 <body>	
 
 	<div>
 		<nav class = "navbar navbar-expand-md bg-dark navbar-dark">
 			<div class = "container">
-				<a href="" class = "navbar-brand text-info font-weight-bold" >
+				<a href="{% url 'intro' %}" class = "navbar-brand text-info font-weight-bold" >
 					DEVARSHI 
 				</a>
 				<button class = "navbar-toggler" type = "button" data-toggle = "collapse"
@@ -31,9 +33,9 @@
 
 				<div class = "collapse navbar-collapse text-center" id = "collapsenavbar" >
 					<ul class = "navbar-nav ml-auto">
-						<li class = "nav-item">
+						<!-- <li class = "nav-item">
 							<a href="{% url 'intro' %}" class = "nav-link"> INTRODUCTION </a>
-						</li>
+						</li> -->
 						<li class = "nav-item">
 							<a href="{% url 'edu' %}" class = "nav-link"> EDUCATION </a>
 						</li>
@@ -44,10 +46,10 @@
 							<a href="{% url 'skills' %}" class = "nav-link"> SKILLS </a>
 						</li>
 						<li class = "nav-item">
-							<a href="" class = "nav-link"> ACHIEVEMENTS </a>
+							<a href="{% url 'ach' %}" class = "nav-link"> ACHIEVEMENTS </a>
 						</li>
 						<li class = "nav-item">
-							<a href="" class = "nav-link"> CERTIFICATIONS </a>
+							<a href="{% url 'certi' %}" class = "nav-link"> CERTIFICATIONS </a>
 						</li>
 					</ul>
 				</div>

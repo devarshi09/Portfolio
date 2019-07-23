@@ -4,7 +4,7 @@
 	<title>Homepage</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/styl.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 	<div class = "bgimg">
 		<nav class = "navbar navbar-expand-md bg-dark navbar-dark">
 			<div class = "container">
-				<a href="" class = "navbar-brand text-info font-weight-bold" >
+				<a href="{% url 'intro' %}" class = "navbar-brand text-info font-weight-bold" >
 					DEVARSHI 
 				</a>
 				<button class = "navbar-toggler" type = "button" data-toggle = "collapse"
@@ -31,9 +31,9 @@
 
 				<div class = "collapse navbar-collapse text-center" id = "collapsenavbar" >
 					<ul class = "navbar-nav ml-auto">
-						<li class = "nav-item">
+						<!-- <li class = "nav-item">
 							<a href="{% url 'intro' %}" class = "nav-link"> INTRODUCTION </a>
-						</li>
+						</li> -->
 						<li class = "nav-item">
 							<a href="{% url 'edu' %}" class = "nav-link"> EDUCATION </a>
 						</li>
@@ -44,10 +44,10 @@
 							<a href="{% url 'skills' %}" class = "nav-link"> SKILLS </a>
 						</li>
 						<li class = "nav-item">
-							<a href="" class = "nav-link"> ACHIEVEMENTS </a>
+							<a href="{% url 'ach' %}" class = "nav-link"> ACHIEVEMENTS </a>
 						</li>
 						<li class = "nav-item">
-							<a href="" class = "nav-link"> CERTIFICATIONS </a>
+							<a href="{% url 'certi' %}" class = "nav-link"> CERTIFICATIONS </a>
 						</li>
 					</ul>
 				</div>
@@ -68,17 +68,17 @@
 
 	<section class = "container iam text-center">
 		
-		<h1>I AM</h1>
+		<h1 class = "iamm">I AM</h1>
 		<div class = "row rowsetting">
 			
 			<div class="col-lg-6 col-md-6 col-sm-6 col-12 d-block m-auto">
 				<div class = "imgsetting d-block m-auto bg-warning ">
 						<i class = "fa fa-puzzle-piece fa-5x text-black"></i>					
 				</div>
-				<h2>
+				<h2 class = "sheriff">
 					Competitive Programmer
 				</h2>
-				<p>
+				<p class = "cpp">
 					I love solving problems related to Data Structures, Algorithms, Mathematics, and Competitve Programming is all about that. I compete in coding competitions organised on competitive programming platforms like codeforces, codechef, atcoder, etc. My handle is devarshi09.
 				</p>
 			</div>
@@ -87,10 +87,10 @@
 				<div class = "imgsetting d-block m-auto bg-warning">
 						<i class = "fa fa-laptop fa-5x text-black"></i>					
 				</div>
-				<h2>
+				<h2 class = sherifff>
 					Web Developer
 				</h2>
-				<p>
+				<p class = "cpp">
 					I like exploring the world of Web Technologies. I have worked on following Web Technologies : Frontend(HTML,CSS,Java Script,Jquery), Backend
 					(Django). I used mentioned Technologies in my projects including this portfolio.  
 				</p>

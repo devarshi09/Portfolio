@@ -95,8 +95,92 @@ background-color: #ffff66;*
 .college h3{
 	font-family: Chalkduster, fantasy;
 }
-/*
-.exp{
-	padding : 100px;
+
+.cp{
+	border: 2px solid black;
+  	padding: 100px;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	font-family: Andale Mono, monospace;
+	font-size: 30px;
 }
-*/
+
+.points{
+	font-family: Andale Mono, monospace;
+	font-size: 20px;
+	border: 2px solid black;
+	padding:20px;
+}
+
+.gamora{
+	margin-left: 30px;
+}
+
+.bld{
+	font-family: Impact, fantasy;
+}
+
+.alll{
+	background-image: url('/static/woodd2.png');
+}
+
+.checked {
+  color: orange;
+}
+
+
+.shift{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.neww{
+	margin-bottom: 5px;
+}
+
+.cer{
+	border: 2px solid black;
+  	padding: 100px;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	font-family: American Typewriter, serif;
+	font-size: 30px;
+}
+
+.allll{
+	background-image: url('/static/blurredd.jpg');
+}
+
+.ny{
+	font-family: Impact, fantasy;
+}
+
+.point{
+	font-family: Andale Mono, monospace;
+	font-size: 20px;
+	border: 2px solid black;
+	padding:30px;
+
+}
+
+.cpp{
+	font-family: Marker Felt, fantasy;
+	font-size: 20px;
+}
+
+.sherifff{
+	font-family: Marker Felt, fantasy;
+	font-size: 60px;
+	padding-top: 20px;
+}
+
+.sheriff{
+	font-family: Marker Felt, fantasy;
+	font-size: 60px;
+	padding-top:10px;
+}
+
+.iamm{
+	font-family: Marker Felt, fantasy;
+	font-size: 80px;
+}
+
