@@ -184,3 +184,7 @@ background-color: #ffff66;*
 	font-size: 80px;
 }
 
+
+body{
+	background-image: url('/static/woodd2.png');
+}
